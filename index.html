@@ -17,7 +17,7 @@
 <body>
     <header class="navbar navbar-expand sticky-top p-4" id="cabecalho"> <!--"sticky-top para que a navbar acompanhe a rolagem"-->
         <div class="container"> <!--pt-4 adiciona margem ao texto pode ser só p ou ps ou pb-->
-            <h1 class="navbar-brand m-0 section-title"><!--o m-0 elimina a margem do txt-->Nome do restaurante</h1>
+            <h1 class="navbar-brand m-0 section-title" id="topo">Nome do restaurante</h1>
             <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao"> <!--o--> 
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -394,5 +394,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
     <script src="caminho/para/seu/formulario.js"></script>
     <script src="./formulario.js"></script>
+    <script>
+        document.getElementById('topo').addEventListener('click', function(event) {
+            event.preventDefault(); // Evita qualquer ação padrão
+            window.scrollTo({ top: 0, behavior: 'smooth' }); // Rola suavemente até o topo
+        });
+    </script>    
 </body>
 </html>
