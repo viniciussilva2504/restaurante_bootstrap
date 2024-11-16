@@ -3,12 +3,12 @@ body {
 }
 
 .navbar {
-    background-color: #e15f14;
+    background-color: #4a4745;
 }
 
 #cabecalho .nav .nav-link .active {
-    background-color: #fff;
-    color: #e15f14;
+    background-color: #f1e8e6;
+    color: #4a4745;
 }
 
 #cabecalho .nav .nav-link,
@@ -19,29 +19,29 @@ body {
 }
 
 .navbar-toggler {
-    background-color: #ffeae6;
+    background-color: #f1e8e6;
 }
 
 .section-title {
-    font-family: Pacifico, cursive;
+    font-family: "Rubik 80s Fade", system-ui;
 }
 
-#sobre-o-restaurante, #cardapio {
-    background-color: #ffeae6;
+#sobre-a-IWTB, #servicos {
+    background-color: #f1e8e6;
 }
 
 .text-colored {
-    color: #e15f14;
+    color: #4a4745;
 }
 
 .nav-cardapio .nav-link.active,
 #fale-conosco button {
-    background-color: #e15f14;
+    background-color: #4a4745;
     color: #fff;
 }
 
 .nav-cardapio .nav-link:hover {
-    color: #e15f14;
+    color: #4a4745;
 }
 
 .social-links li {
